@@ -16,6 +16,7 @@
   ---color-portfolio-btn: #f5f4fa;
   ---color--portfolio-text-btn: #212121;
   ---color-cart-portfolio: #ffffff;
+  ---color-current: #2196f3;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -96,6 +97,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--color-btn-text);
+  text-transform: uppercase;
 }
 
 .main-title: {
@@ -166,6 +168,13 @@ body {
   letter-spacing: 0.03em;
   color: var(---color-text-main);
 }
+
+.team-item {
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
 /* footer*/
 .footer {
   background: var(--background-color-main);
@@ -187,13 +196,15 @@ body {
 }
 .contacts-mail-footer,
 .contacts-tel-footer {
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
+.address {
+  font-style: normal;
+}
+
 .contacts-mail-footer:hover,
 .contacts-tel-footer:hover,
 .contacts-mail-footer:focus,
@@ -204,8 +215,6 @@ body {
 }
 
 .contacts-link-footer {
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -230,11 +239,18 @@ body {
 }
 
 .button-nav-portfolio:hover,
-.button-nav-portfolio:focus {
+.button-nav-portfolio:focus,
+.button-nav-portfolio-all {
   background: #2196f3;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
 }
 
 .works {
@@ -254,4 +270,11 @@ body {
 .cart-list {
   background: var(---color-cart-portfolio);
   border: 1px solid #eeeeee;
+}
+.current {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(---color-current);
 }
