@@ -97,16 +97,15 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--color-btn-text);
-  text-transform: uppercase;
 }
 
-.main-title: {
+.main-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: var(---text-color);
+  text-transform: uppercase;
 }
 .main-content {
   font-weight: 400;
